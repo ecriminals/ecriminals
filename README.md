@@ -1,6 +1,6 @@
 <h1 align="center">ledges</h1>
 <p align="center">
-  <img src="https://github-profile-counter.beliefs.repl.co/ledges?right_color=#000000" alt="ledges" />
+  <img src="https://github-profile-counter.beliefs.repl.co/ledges?left_color=black&right_color=black" alt="ledges" />
 </p>
 <br />
 <p align="left">
