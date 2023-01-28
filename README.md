@@ -4,7 +4,7 @@
 </p>
 <br />
 <p align="left">
-    <img src="https://github-readme-stats.vercel.app/api?username=ledges&show_icons=true&theme=tokyonight" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ledges&theme=tokyonight" />
+    <img src="https://github-readme-stats.vercel.app/api?username=ledges&show_icons=true&theme=tokyonight&hide_border=True" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ledges&theme=tokyonight&hide_border=True" />
 </p>
 <br>
