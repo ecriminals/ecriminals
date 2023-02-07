@@ -7,3 +7,11 @@
     <img src="https://github-readme-stats.vercel.app/api?username=ledges&show_icons=true&theme=tokyonight" />
 </p>
 <br>
+
+<h1 align="center"> Langs Learned / Learning.</h1>
+
+* Crystal
+* Julia
+* Golang
+* Python
+* Haskell
