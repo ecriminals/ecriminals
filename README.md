@@ -9,9 +9,6 @@
 <br>
 
 <h1 align="center"> Langs Learned / Learning.</h1>
-
-* Crystal
-* Julia
-* Golang
-* Python
-* Haskell
+<p align="center">
+  Crystal, Julia, Golang, Python, Haskell
+</p>
