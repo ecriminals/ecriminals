@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lady</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay" id="overlay">
+        <div class="overlay-content">
+            <p>Click to Enter</p>
+        </div>
+    </div>
+
+    <div class="bio-container">
+        <div class="bio-content">
+            <img src="pfp.jpg" alt="Profile Picture" class="pfp">
+            <h1>Lady</h1>
+            <p class="bio">Heyoo! I'm Lady, the real ecriminal!!!!!</p>
+        </div>
+    </div>
+
+    <div class="terminal">
+        <h2 class="scrolling-title">You are the love of my life...</h2>
+    </div>
+
+    <audio id="audio" preload="auto">
+        <source src="lady.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const audio = document.getElementById('audio');
+        
+        overlay.addEventListener('click', () => {
+            overlay.style.display = 'none';
+            audio.play();
+        });
+    </script>
+</body>
+</html>
