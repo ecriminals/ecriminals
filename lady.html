@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="ladystyles.css">
 </head>
 <body>
+    <canvas id="visualizer"></canvas>
+
     <div class="overlay" id="overlay">
         <div class="overlay-content">
             <p>Click to Enter</p>
@@ -25,6 +27,7 @@
         <source src="lady.mp3" type="audio/mp3">
     </audio>
 
+    <script src="ladyvisualizer.js"></script>
     <script>
         const overlay = document.getElementById('overlay');
         const audio = document.getElementById('audio');
