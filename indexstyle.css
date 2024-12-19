@@ -18,18 +18,11 @@ body {
     text-align: center;
 }
 
-.profile-box {
-    background-color: rgba(0, 0, 0, 0.7); /* Black box with transparency */
-    padding: 0px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
 .profile-container {
     display: flex;
     justify-content: space-around;
     gap: 40px;
-    margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 .profile {
@@ -57,14 +50,6 @@ body {
 .profile:hover .profile-img {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
-}
-
-.text-section {
-    color: white;
-    font-size: 16px;
-    margin-top: 20px;
-    line-height: 1.5;
-    text-align: center;
 }
 
 footer {
