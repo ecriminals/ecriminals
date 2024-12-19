@@ -31,7 +31,7 @@ window.onload = function () {
         let x = 0;
 
         
-        const color = 'rgba(0, 255, 255, 0.7)';  
+        const color = 'rgba(255, 255, 255, 0.7)';  
 
         for (let i = 0; i < bufferLength; i++) {
             barHeight = dataArray[i];
