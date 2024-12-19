@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('landing-page.gif') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.profile {
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-name {
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.profile:hover .profile-img {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
