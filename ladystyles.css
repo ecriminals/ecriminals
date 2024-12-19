@@ -14,14 +14,14 @@ body {
     height: 100vh;
     flex-direction: column;
     overflow: hidden;
-    position: relative;
+    position: relative; 
 }
 
 canvas#visualizer {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1; /* Make sure the canvas stays behind other elements */
+    z-index: -1; 
     display: block;
 }
 
